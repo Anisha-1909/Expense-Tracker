@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+  />
+  <body>
+    <div class="home">
+      <p>Track your money!.</p>
+    </div>
+
+    <div class="header">
+      <h2>Expense Tracker</h2>
+    </div>
+
+    <div class="form-card">
+      <input type="date" id="dateInput" />
+      <input type="number" id="amountInput" placeholder="Amount" />
+      <select id="typeInput">
+        <option value="">Transaction Type</option>
+        <option value="Income">Income</option>
+        <option value="Expense">Expense</option>
+      </select>
+      <button id="addBtn">+</button>
+    </div>
+
+    <div class="summary">
+      <div class="card">
+        <p>
+          Total Income
+
+          <span class="material-symbols-outlined"> trending_down </span>
+        </p>
+        <h3>₹ <span id="totalIncome">0</span></h3>
+      </div>
+      <div class="card">
+        <p>
+          Total Expense<span class="material-symbols-outlined">
+            trending_up
+          </span>
+        </p>
+        <h3>₹ <span id="totalExpense">0</span></h3>
+      </div>
+      <div class="card">
+        <p>
+          Balance
+          <span class="material-symbols-outlined">
+            account_balance_wallet
+          </span>
+        </p>
+        <h3>₹ <span id="balance">0</span></h3>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Amount</th>
+          <th>Transaction Type</th>
+          <th>Transaction Date</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="transactionList">
+        <!--rows added here by js-->
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
