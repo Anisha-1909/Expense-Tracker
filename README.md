@@ -2,11 +2,11 @@
 A responsive web application that help users track their income,expenses and manage transactions.
 
 ✨Features
- Simple login interface
- Add income and expenses
- Delete transctions
- Local Storage
- Responsice design
+. Simple login interface
+. Add income and expenses
+. Delete transctions
+. Local Storage
+. Responsice design
 
 </> Technologies used
 
