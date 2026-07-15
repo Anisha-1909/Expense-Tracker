@@ -1,4 +1,4 @@
-//get all elements
+//getting all elements
 const dateInput = document.getElementById("dateInput");
 const amountInput = document.getElementById("amountInput");
 const typeInput = document.getElementById("typeInput");
@@ -9,10 +9,10 @@ const totalIncomeEl = document.getElementById("totalIncome");
 const totalExpenseEl = document.getElementById("totalExpense");
 const balanceEl = document.getElementById("balance");
 
-//load the saved transactions
+//load saved transactions
 let transactions = JSON.parse(localStorage.getItem("transactions")) || [];
 
-//add transaction
+//addtransaction
 addBtn.addEventListener("click", () => {
   const date = dateInput.value;
   const amount = parseFloat(amountInput.value);
@@ -33,7 +33,7 @@ addBtn.addEventListener("click", () => {
   transactions.push(transaction);
   saveAndRender();
 
-  //reset the form
+  //reset form
   dateInput.value = "";
   amountInput.value = "";
   typeInput.value = "";
