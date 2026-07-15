@@ -1,14 +1,14 @@
-# Expense Tracker
+## Expense Tracker
 A web based appllication that help users track their income,expenses and manage transactions.
 
-✨Features
-. Simple login interface
-. Add income and expenses
-. Delete transctions
-. Local Storage
-. Responsive design
+### ✨Features
+- Simple login interface
+- Add income and expenses
+- Delete transctions
+- Local Storage
+- Responsive design
 
-</> Technologies used
+### </> Technologies used
 
 |Category|Technology|
 |--------|----------|
@@ -18,7 +18,7 @@ A web based appllication that help users track their income,expenses and manage 
 |Storage|LocalStorage|
 |Icons|Google Material Symbols|
 
- How to run
+#### How to run
 1. open login.html 
 2. enter any username and password
 3. click login
