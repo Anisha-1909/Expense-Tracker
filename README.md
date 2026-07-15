@@ -18,7 +18,7 @@ A web based appllication that help users track their income,expenses and manage 
 |Storage|LocalStorage|
 |Icons|Google Material Symbols|
 
-#### How to run
+### How to run
 1. open login.html 
 2. enter any username and password
 3. click login
